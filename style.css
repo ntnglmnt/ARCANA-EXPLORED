@@ -1,0 +1,250 @@
+.head{
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.body{
+    height: 100vh;
+    width: 100vw;
+    color:#f9faf8;
+
+}
+
+.header{
+display: flex;
+justify-content: space-around;
+align-items: center;
+height: 100px;
+background-color: #1f2937;
+
+}
+
+.logo{
+font-size: 24px;
+font-weight: bolder;
+color: #e5e7eb;
+}
+
+.options{
+    font-size: 18px;
+    display: flex;
+    gap: 15px;
+}
+
+.containerone{
+    display: flex;
+    justify-content: space-around;
+    background-color: #1f2937;
+    height: 250px;
+}
+
+.introdution{
+    display: flex;
+    justify-content: space-around;
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+}
+
+h{
+    font-size:24;
+    color: #e5e7eb;
+    font-style: bolder;
+    width: 300px;
+    padding: 10px;
+}
+
+a{
+    color: #f9faf8;
+}
+p{
+    font-size: 15px;
+    color: #e5e7eb;
+    font-style: bold;
+    flex-wrap: wrap;
+    display: flex;
+    width: 250px;
+    padding: 10px;
+}
+
+button{
+    width: 50px;
+    height: 25px;
+    border-radius: 50px;
+    outline: none;
+    border-color: black;
+}
+
+.add{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.containertwo{
+    display: flex;
+    flex-direction: column;
+    background-color: #f9faf8;
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24;
+    font-weight: 900;
+    padding: 35px;
+}
+
+.activities{
+    display: flex;
+    justify-content: space-around;
+    padding: 25px;
+
+}
+
+.card{
+    
+    display: flex;
+    flex-direction: column;
+    font-size: medium;
+    align-items: center;
+}
+
+h2{
+    width: 50px;
+}
+
+.boxone{
+    width: 200px;
+    height: 190px;
+    background-image: url("./images/pvp.jpeg");
+    background-size: fill;
+    background-position: center;
+    border: 2px solid black;
+}
+
+.boxtwo{
+    width: 200px;
+    height: 190px;
+    background-image: url("./images/pve.jpeg");
+    background-size: fill;
+    background-position: center;
+    border: 2px solid black;
+
+}
+
+.boxthree{
+    width: 200px;
+    height: 190px;
+    background-image: url("./images/mythic.jpeg");
+    background-size: fill;
+    background-position: center;
+    border: 2px solid black;
+
+
+}
+
+.boxfour{
+    width: 200px;
+    height: 190px;
+    background-image: url("./images/raid.jpeg");
+    background-size: fill;
+    background-position: center;
+    border: 2px solid black;
+
+}
+.imagetext{
+    font-size: 20px;
+    text-align: center;
+    color: black;
+    padding: 10px;
+}
+
+.containerthree{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #E5E7EB;
+    padding: 25px;
+}
+
+.maintext{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+
+.maintextfont{
+    font-size: medium;
+    color: black;
+    width: 600px;
+}
+
+
+.signed{
+   display: flex;
+   justify-content: flex-end;
+   color: black;
+   width: 900px;
+}
+
+.signedtextfont{
+    font-size: medium;
+}
+
+.containerfour{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #f9faf8;
+    height: 250px;
+}
+
+.wraper{
+    display: flex;
+    justify-content: space-around;
+    background-color: #3882f6;
+    width: 500px;
+    height: 100px;    
+}
+
+.right{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.left{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+.trialtext{
+    font-size: large;
+    padding: 1px;
+}
+
+.guaranteetext{
+    font-size: small;
+    
+}
+
+input{
+    background-color: #3882f6;
+    color: #e5e7eb;
+    border:2px solid  #e5e7eb;
+    outline:none;
+    font-size: smaller;
+    width: 50px;
+    height: 35px;
+
+}
